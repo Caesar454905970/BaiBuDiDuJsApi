@@ -1,0 +1,140 @@
+<!DOCTYPE html> 
+<html>
+<head> 
+<meta name="viewport" content="initial-scale=1.0, user-scalable=no" /> 
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+<title>Hello, World</title> 
+<style type="text/css"> 
+html{height:100%} 
+body{height:100%;margin:0px;padding:0px} 
+#container{height:100%} 
+</style>
+<!--    ak=密匙-->
+<script type="text/javascript" src="https://api.map.baidu.com/api?v=1.0&type=webgl&ak=oLMOyCQaKDAjLxm89uPGTjst9RoWNtti">
+</script>
+</head> 
+  
+<body> 
+<div id="container"></div>
+<script type="text/javascript">
+var map = new BMapGL.Map("container");
+// 创建地图实例 
+
+var point = new BMapGL.Point(104.073803,30.699047);
+// 创建点坐标 
+// 地图缩放
+map.centerAndZoom(point,12);
+map.setMapStyleV2({
+    // 调用API的ID
+  styleId: 'e942ed3811d7608e893a6e02ac88c91d'
+});
+// 成都大学附属医院
+map.addOverlay(new BMapGL.Marker(new BMapGL.Point(104.073803,30.699047))); 
+// 成都第七人民医院
+map.addOverlay(new BMapGL.Marker(new BMapGL.Point(104.086225,30.647366))); 
+// 成都市第八人民医院
+map.addOverlay(new BMapGL.Marker(new BMapGL.Point(104.144133,30.770897))); 
+// 成都市第六人民医院
+map.addOverlay(new BMapGL.Marker(new BMapGL.Point(104.114683,30.672746))); 
+// 成飞医院
+map.addOverlay(new BMapGL.Marker(new BMapGL.Point(103.969716,30.699236))); 
+
+
+// 达州市中心医院
+map.addOverlay(new BMapGL.Marker(new BMapGL.Point(107.526101,31.226819))); 
+// 大观医院
+map.addOverlay(new BMapGL.Marker(new BMapGL.Point(107.526101,31.226819))); 
+// 德阳人民医院
+map.addOverlay(new BMapGL.Marker(new BMapGL.Point(104.402857,31.137175))); 
+// 德阳市旌阳区中医院
+map.addOverlay(new BMapGL.Marker(new BMapGL.Point(104.39207,31.139448))); 
+// 东兴区人民医院
+map.addOverlay(new BMapGL.Marker(new BMapGL.Point(105.091674,29.606342))); 
+// 高县人民医院
+map.addOverlay(new BMapGL.Marker(new BMapGL.Point(104.528045,28.439575))); 
+// 广安市人民医院
+map.addOverlay(new BMapGL.Marker(new BMapGL.Point(106.65217,30.458442))); 
+// 广汉人民医院
+map.addOverlay(new BMapGL.Marker(new BMapGL.Point(104.290024,30.981587))); 
+// 汉源县人民医院
+map.addOverlay(new BMapGL.Marker(new BMapGL.Point(102.650673,29.349603))); 
+// 航天医院
+map.addOverlay(new BMapGL.Marker(new BMapGL.Point(104.26966,30.554241))); 
+// 洪雅县人民医院
+map.addOverlay(new BMapGL.Marker(new BMapGL.Point(103.386826,29.906776))); 
+// 会东县中医医院
+map.addOverlay(new BMapGL.Marker(new BMapGL.Point(102.582244,26.637286))); 
+// 金堂县第二人民医院
+map.addOverlay(new BMapGL.Marker(new BMapGL.Point(104.564246,30.714603))); 
+// 金堂中医院
+map.addOverlay(new BMapGL.Marker(new BMapGL.Point(104.404987,30.857601))); 
+// 凉山州二医院
+map.addOverlay(new BMapGL.Marker(new BMapGL.Point(102.269194,27.888302))); 
+// 凉山州中西医结合医院
+map.addOverlay(new BMapGL.Marker(new BMapGL.Point(102.270726,27.891973))); 
+// 眉山市彭山区人民医院
+map.addOverlay(new BMapGL.Marker(new BMapGL.Point(103.872754,30.20881))); 
+// 眉山市人民医院
+map.addOverlay(new BMapGL.Marker(new BMapGL.Point(103.856035,30.067106))); 
+// 眉山市心脑血管疾病医院
+map.addOverlay(new BMapGL.Marker(new BMapGL.Point(103.849386,30.08915))); 
+// 眉山市中医医院
+map.addOverlay(new BMapGL.Marker(new BMapGL.Point(103.834913,30.04662))); 
+// 绵竹市人民医院
+map.addOverlay(new BMapGL.Marker(new BMapGL.Point(103.969716,30.699236))); 
+// 绵竹中医院
+map.addOverlay(new BMapGL.Marker(new BMapGL.Point(104.20754,31.338618))); 
+// 南充市中心医院
+map.addOverlay(new BMapGL.Marker(new BMapGL.Point(106.091685,30.793389))); 
+// 内江市市中区人民医院
+map.addOverlay(new BMapGL.Marker(new BMapGL.Point(103.969716,30.699236))); 
+// 内江市中医医院
+map.addOverlay(new BMapGL.Marker(new BMapGL.Point(106.091685,30.793389))); 
+// 彭州第二人民医院
+map.addOverlay(new BMapGL.Marker(new BMapGL.Point(104.126291,30.95659))); 
+// 蓬溪县人民医院
+map.addOverlay(new BMapGL.Marker(new BMapGL.Point(105.708315,30.752685))); 
+// 仁和区人民医院
+map.addOverlay(new BMapGL.Marker(new BMapGL.Point(101.739855,26.509063))); 
+// 三台县人民医院
+map.addOverlay(new BMapGL.Marker(new BMapGL.Point(105.099832,31.097844))); 
+// 射洪市人民医院
+map.addOverlay(new BMapGL.Marker(new BMapGL.Point(105.389997,30.87346))); 
+// 什邡第二医院
+map.addOverlay(new BMapGL.Marker(new BMapGL.Point(104.178222,31.136898))); 
+// 什邡市人民医院
+map.addOverlay(new BMapGL.Marker(new BMapGL.Point(104.198459,31.13333))); 
+// 双流一医院
+map.addOverlay(new BMapGL.Marker(new BMapGL.Point(103.931914,30.59564))); 
+// 四川省交通运输厅公路局医院
+map.addOverlay(new BMapGL.Marker(new BMapGL.Point(103.973405,30.766814))); 
+// 遂宁市第一人民医院
+map.addOverlay(new BMapGL.Marker(new BMapGL.Point(105.591603,30.508343))); 
+// 温江区中医院
+map.addOverlay(new BMapGL.Marker(new BMapGL.Point(103.849288,30.704706))); 
+// 新都第三人民医院
+map.addOverlay(new BMapGL.Marker(new BMapGL.Point(104.062001,30.776808))); 
+// 新津县人民医院
+map.addOverlay(new BMapGL.Marker(new BMapGL.Point(103.812007,30.422401))); 
+// 宣汉县中医医院
+map.addOverlay(new BMapGL.Marker(new BMapGL.Point(107.73285,31.360365))); 
+// 雅安人民医院
+map.addOverlay(new BMapGL.Marker(new BMapGL.Point(102.999111,29.988532))); 
+// 盐亭县人民医院
+map.addOverlay(new BMapGL.Marker(new BMapGL.Point(105.398419,31.232924))); 
+// 中江县人民医院
+map.addOverlay(new BMapGL.Marker(new BMapGL.Point(104.682469,31.046597))); 
+// 中铁二局集团中心医院
+map.addOverlay(new BMapGL.Marker(new BMapGL.Point(104.059716,30.694335))); 
+// 资阳市人民医院
+map.addOverlay(new BMapGL.Marker(new BMapGL.Point(104.634132,30.156807))); 
+// 资中县人民医院
+map.addOverlay(new BMapGL.Marker(new BMapGL.Point(104.865566,29.783982))); 
+
+
+
+
+
+</script> 
+</body> 
+</html>
